@@ -3,6 +3,23 @@
     margin: 0;
 }
 
+::selection {
+    background: #fffb6e;
+    color:#333;
+}
+::-ms-selection {
+    background: #ffec18;
+    color: #333;
+}
+::-moz-selection {
+    background: #ffec18;
+    color: #333;
+}
+::-webkit-selection {
+    background: #ffec18;
+    color: #333;
+}
+
 header {
     position: relative;
     /* background: #000; */
